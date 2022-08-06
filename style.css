@@ -1,0 +1,103 @@
+/* Importação de fonte */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400;600&display=swap');
+
+/*  RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corBrancaLetra: #fcfcfc;
+    --corVerdeBotao: #284612;
+    --corImagemConj: #30551b;
+    --corTraço: #274411;
+}
+
+body {
+    background-image: url(Frame\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Advent Pro', sans-serif;
+    height: auto;
+}
+
+/* Seção Header e NavBar */
+header {
+    display: flex;
+    margin-top: 110px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: 500px;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 35px;
+    font-weight: 600;
+    font-size: 35px;
+    color: var(--corBrancaLetra);
+    line-height: 30px;
+    margin-right: 50px;
+}
+
+nav i {
+    padding-top: 35px;
+    font-size: 30px;
+    font-weight: 200;
+    color: var(--corBrancaLetra);
+    margin-left: 30px;  
+}
+
+
+/* Seção Main */
+main {
+    margin-top: 400px;
+    margin-left: 150px;
+}
+
+main h1 {
+    color: var(--corBrancaLetra);
+    font-size: 130px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-bottom: 65px;
+}
+
+main p {
+    color: var(--corBrancaLetra);
+    text-align: left;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+main button {
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    background-color: var(--corTraço);
+    color: var(--corBrancaLetra);
+    border: transparent;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
